@@ -1,29 +1,55 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [toggleImage, setToggleImage] = useState(true);
+
   return (
     <div className="Interactive">
       <div className="Headline">
-        <p>Why do Western audiences hate non-English-speaking artists...</p>
+        <h1>Why do Western audiences hate non-English-speaking artists...</h1>
       </div>
       <div className="Lede">
-        <p>Lede lede lede lede lede lede lede lede lede lede <br></br>
-        Lede lede lede lede lede lede lede lede lede lede <br></br>
-        Lede lede lede lede lede lede lede lede lede lede <br></br>
-        Lede lede lede lede lede lede lede lede lede lede <br></br>
-        Lede lede lede lede lede lede lede lede lede lede <br></br>
-        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p>Quam viverra orci sagittis eu volutpat. Ac felis donec et odio. Varius quam quisque id diam vel. Pretium viverra suspendisse potenti nullam ac tortor. </p>
       </div>
       <div className="Intro">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p> Cursus risus at ultrices mi tempus imperdiet. Sit amet 
+          consectetur adipiscing elit. Nam aliquam sem et tortor 
+          consequat id. Odio eu feugiat pretium nibh ipsum. Felis 
+          imperdiet proin fermentum leo vel orci porta non. Placerat 
+          orci nulla pellentesque dignissim enim sit amet venenatis 
+          urna. In nisl nisi scelerisque eu ultrices vitae. Eros 
+          donec ac odio tempor orci dapibus ultrices in. Pellentesque 
+          habitant morbi tristique senectus et netus et.
+        </p>
+        <p>
+        Tortor condimentum lacinia quis vel eros donec ac. Nisl 
+        pretium fusce id velit. Ac odio tempor orci dapibus ultrices.
+        Aliquam purus sit amet luctus venenatis lectus. Quisque non
+        tellus orci ac auctor augue mauris augue. In hendrerit 
+        gravida rutrum quisque non tellus orci ac auctor. Lectus 
+        arcu bibendum at varius vel pharetra. Laoreet suspendisse 
+        interdum consectetur libero id faucibus. 
         </p>
       </div>
-      <div className="K-Pop">
+      <div className="Transition">
+        <p>Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Etiam non quam lacus suspendisse faucibus interdum.</p>
+      </div>
+      <div className="Sub-Header">
+        <h2>Who is BTS?</h2>
+      </div>
+      <div className="Sub-Header">
+        <h2>Who is Luis Fonsi?</h2>
+      </div>
+      <div className="Sub-Header">
+        <h2>Ratings, Streams and Respect</h2>
+      </div>
+
+
+      {/* <div className="K-Pop">
 
               <div className="BTS-Title">
                 <p>BTS</p>
@@ -54,7 +80,7 @@ function App() {
               </div>
 
 
-        </div>
+        </div> */}
         
       <div className="Latin-Pop">
         
