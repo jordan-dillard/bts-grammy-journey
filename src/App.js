@@ -1,21 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import BTSImageInteractive from './components/BTSImageInteractive';
 
 function App() {
-
-  const [toggleImage, setToggleImage] = useState(true);
 
   return (
     <div className="Interactive">
       <div className="Headline">
         <h1>Why do Western audiences hate non-English-speaking artists...</h1>
       </div>
-      <div className="Lede">
+      <div className="PartOne">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <p>Quam viverra orci sagittis eu volutpat. Ac felis donec et odio. Varius quam quisque id diam vel. Pretium viverra suspendisse potenti nullam ac tortor. </p>
-      </div>
-      <div className="Intro">
         <p> Cursus risus at ultrices mi tempus imperdiet. Sit amet 
           consectetur adipiscing elit. Nam aliquam sem et tortor 
           consequat id. Odio eu feugiat pretium nibh ipsum. Felis 
@@ -34,13 +30,15 @@ function App() {
         arcu bibendum at varius vel pharetra. Laoreet suspendisse 
         interdum consectetur libero id faucibus. 
         </p>
-      </div>
-      <div className="Transition">
         <p>Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Etiam non quam lacus suspendisse faucibus interdum.</p>
       </div>
+
       <div className="Sub-Header">
         <h2>Who is BTS?</h2>
       </div>
+
+    <BTSImageInteractive></BTSImageInteractive>
+
       <div className="Sub-Header">
         <h2>Who is Luis Fonsi?</h2>
       </div>

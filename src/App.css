@@ -9,6 +9,15 @@
   color: white;
 }
 
+.Headline {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 50rem;
+}
+
+.PartOne{
+  max-width: 40rem;
+}
+
 .Lyric-Comparison {
   display: flex;
   flex-direction: row;
@@ -27,7 +36,14 @@
   margin: 5px;
 }
 
-.Headline {
-  font-family: 'Montserrat', sans-serif;
+.BTSPhotoText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 976px;
+  height: 549px;
   font-size: xx-large;
+  color: lightblue;
+  text-decoration: underline;
+  
 }
