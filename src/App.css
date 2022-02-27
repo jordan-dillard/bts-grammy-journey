@@ -14,8 +14,20 @@
   max-width: 50rem;
 }
 
-.PartOne{
-  max-width: 40rem;
+.PartOne {
+  max-width: 50rem;
+}
+
+.PartTwo {
+  max-width: 50rem;
+}
+
+.PartThree {
+  max-width: 50rem;
+}
+
+.PartFour {
+  max-width: 50rem;
 }
 
 .Lyric-Comparison {
