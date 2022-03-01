@@ -31,7 +31,7 @@
   color: #FFFFFF;
   margin-left: 91px;
   position: sticky;
-  top: 150px;
+  top: 75px;
 }
 .Subhead {
   width: 1258px;
@@ -60,22 +60,42 @@
 .PartOne {
   max-width: 50rem;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+  /* or 160% */
 }
 .PartTwo {
   max-width: 50rem;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+  /* or 160% */
 }
 .PartThree {
   max-width: 50rem;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+  /* or 160% */
 }
 .PartFour {
   max-width: 50rem;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+  /* or 160% */
 }
 .Lyric-Comparison {
   display: flex;
