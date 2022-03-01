@@ -1,14 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import BTSImageInteractive from './components/BTSImageInteractive';
+import "@fontsource/dm-sans";
 
 function App() {
 
   return (
     <div className="Interactive">
-      <div className="Headline">
-        <h1>Why do W*st*rn audiences hate non-English-speaking artists...</h1>
-        <h4>By Kimberly Cruz, Josh Chen and Jordan Dillard, March 2022</h4>
+    <div className="Header">
+        <div className="Headline-Sticky-Container">
+          <div className="Headline">
+            <span>BIGGER THAN THE GRAMMYS</span>
+          </div>
+        </div>
+        <div className="Subhead">
+          <span>Some non-English-singing artists and their fans are fed up with The Grammys.
+            They ask: What is the point of winning a Grammy if they’ve already made it big everywhere else? </span>
+        </div>
+        <div className="Byline">
+          <span><strong>STORY BY</strong> JOSH CHEN, KIMBERLY CRUZ {'\u0026'} JORDAN DILLARD<br></br>March 2022</span>
+        </div>
       </div>
       <div className="PartOne">
         <p>In 2018, Colombian singer and rapper J Balvin sparked some

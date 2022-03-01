@@ -1,5 +1,5 @@
 .Interactive {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,46 +8,90 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.Headline {
-  font-family: 'Montserrat', sans-serif;
-  max-width: 50rem;
+.Header{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: black;
+  width: 100%
 }
-
+.Headline-Sticky-Container{
+  height: 1500px;
+}
+.Headline {
+ /* BIGGER THAN THE GRAMMYS */
+  
+  width: 1176px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 175px;
+ /* or 87% */
+  color: #FFFFFF;
+  margin-left: 91px;
+  position: sticky;
+  top: 150px;
+}
+.Subhead {
+  width: 1258px;
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: 510;
+  font-size: 35px;
+  line-height: 48px;
+  /* or 137% */
+  color: #FFFFFF;
+  margin-left: 91px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Byline {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+ /* or 150% */
+  letter-spacing: 0.25em;
+  color: #FFFFFF;
+  margin-left: 91px;
+  margin-bottom: 40px;
+}
 .PartOne {
   max-width: 50rem;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 .PartTwo {
   max-width: 50rem;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 .PartThree {
   max-width: 50rem;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 .PartFour {
   max-width: 50rem;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 .Lyric-Comparison {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
 .Analysis {
   display: flex;
   justify-content: center;
   width: 25%;
 }
-
 .Lyrics {
   width: 25%;
   margin: 5px;
 }
-
 .BTSPhotoText {
   display: flex;
   align-items: center;
@@ -57,5 +101,4 @@
   font-size: xx-large;
   color: lightblue;
   text-decoration: underline;
-  
 }
