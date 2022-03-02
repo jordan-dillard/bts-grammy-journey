@@ -31,6 +31,7 @@
   color: #FFFFFF;
   margin-left: 91px;
   position: sticky;
+  position: -webkit-sticky;
   top: 75px;
 }
 .Subhead {
@@ -67,6 +68,16 @@
   line-height: 29px;
   /* or 160% */
 }
+.Sub-Header{
+  max-width: 50rem;
+  color: black;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+  /* or 160% */
+}
 .PartTwo {
   max-width: 50rem;
   color: black;
@@ -76,6 +87,69 @@
   font-size: 21px;
   line-height: 29px;
   /* or 160% */
+}
+.Paragraph-Sticky-Container {
+  height: 3000px;
+}
+.Tweet-Sticky-Container-One{
+  height: 2100px;
+  margin-top: 500px;
+}
+.Tweet-Sticky-Container-Two{
+  height: 1600px;
+}
+.Tweet-Sticky-Container-Three{
+  height: 1400px;
+}
+.Tweet-Sticky-Container-Four{
+  height: 1300px;
+}
+.Tweet-Sticky-Container-Five{
+  height: 900px;
+}
+.Tweet-Sticky-Container-Six{
+  height: 800px;
+}
+.Tweets-Paragraph {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 50%;
+}
+.Tweet-One {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 300px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+.Tweet-Two {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 350px;
+}
+.Tweet-Three {
+  position: sticky;
+  position: -webkit-sticky;
+  margin-left: 400px;
+  top: 400px;
+}
+.Tweet-Four {
+  position: sticky;
+  position: -webkit-sticky;
+  margin-left: 30px;
+  top: 200px;
+}
+.Tweet-Five {
+  position: sticky;
+  position: -webkit-sticky;
+  margin-left: 500px;
+  top: 250px;
+}
+.Tweet-Six {
+  position: sticky;
+  position: -webkit-sticky;
+  margin-left: 300px;
+  top: 350px;
 }
 .PartThree {
   max-width: 50rem;

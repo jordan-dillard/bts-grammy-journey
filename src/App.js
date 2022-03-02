@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import BTSImageInteractive from './components/BTSImageInteractive';
+import Image from 'react-bootstrap/Image';
 import "@fontsource/dm-sans";
+import tweet1 from './images/tweet1.png';
+import tweet2 from './images/tweet2.png';
+import tweet3 from './images/tweet3.png';
+import tweet4 from './images/tweet4.png';
+import tweet5 from './images/tweet5.png';
+import tweet6 from './images/tweet6.png';
 
 function App() {
 
   return (
     <div className="Interactive">
-    <div className="Header">
+      <div className="Header">
         <div className="Headline-Sticky-Container">
           <div className="Headline">
             <span>BIGGER THAN THE GRAMMYS</span>
@@ -21,6 +28,7 @@ function App() {
           <span><strong>STORY BY</strong> JOSH CHEN, KIMBERLY CRUZ {'\u0026'} JORDAN DILLARD<br></br>March 2022</span>
         </div>
       </div>
+
       <div className="PartOne">
         <p>In 2018, Colombian singer and rapper J Balvin sparked some
           controversy with one single tweet. </p>
@@ -56,6 +64,48 @@ function App() {
       <BTSImageInteractive></BTSImageInteractive>
 
       <div className="PartTwo">
+        <div className="Paragraph-Sticky-Container">
+
+          <div className="Tweets-Paragraph">
+            <p>
+              When BTS lost in the Pop Performance by Duo/Group category in the
+              2021 Grammys, ARMY Twitter erupted in fury. They had the hashtag
+              #scammys trending that night, slamming the Recording Academy for
+              only nominating the group to attract viewers, not to actually
+              recognize them for their music.
+            </p>
+          </div>
+          <div className="Tweet-Sticky-Container-One">
+            <div className="Tweet-One">
+              <Image id='TweetOne' src={tweet1} alt='' />
+            </div>
+            <div className="Tweet-Sticky-Container-Two">
+              <div className="Tweet-Two">
+                <Image id='TweetTwo' src={tweet2} alt='' />
+              </div>
+              <div className="Tweet-Sticky-Container-Three">
+                <div className="Tweet-Three">
+                  <Image id='TweetThree' src={tweet3} alt='' />
+                </div>
+                <div className="Tweet-Sticky-Container-Four">
+                  <div className="Tweet-Four">
+                    <Image id='TweetFour' src={tweet4} alt='' />
+                  </div>
+                  <div className="Tweet-Sticky-Container-Five">
+                    <div className="Tweet-Five">
+                      <Image id='TweetFive' src={tweet5} alt='' />
+                    </div>
+                    <div className="Tweet-Sticky-Container-Six">
+                      <div className="Tweet-Six">
+                        <Image id='TweetSix' src={tweet6} alt='' />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <p>
           Since 2017, K-pop boy group BTS has exploded in the West,
           smashing records (and not only for a Korean act) and taking the
