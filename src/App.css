@@ -58,7 +58,7 @@
   margin-left: 91px;
   margin-bottom: 40px;
 }
-.PartOne {
+.Part-One {
   max-width: 50rem;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -78,7 +78,7 @@
   line-height: 29px;
   /* or 160% */
 }
-.PartTwo {
+.Part-Two {
   max-width: 50rem;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,11 +96,11 @@
   margin-top: 500px;
 }
 .Tweet-Sticky-Container-Two{
-  height: 1600px;
+  height: 1700px;
 }
 .Tweet-Sticky-Container-Three{
   height: 1400px;
-}
+}figma
 .Tweet-Sticky-Container-Four{
   height: 1300px;
 }
@@ -149,9 +149,9 @@
   position: sticky;
   position: -webkit-sticky;
   margin-left: 300px;
-  top: 350px;
+  top: 375px;
 }
-.PartThree {
+.Part-Three {
   max-width: 50rem;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -161,7 +161,17 @@
   line-height: 29px;
   /* or 160% */
 }
-.PartFour {
+.Part-Four {
+  max-width: 50rem;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 29px;
+  /* or 160% */
+}
+.Part-Five {
   max-width: 50rem;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
