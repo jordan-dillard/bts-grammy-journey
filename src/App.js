@@ -13,6 +13,7 @@ import tweet6 from './images/tweet6.png';
 import btsBanner from './images/bts-banner.png';
 import fonsiBanner from './images/fonsi-banner.png';
 import ratingsBanner from './images/ratings-banner.png';
+import broaderContextBanner from './images/broader-context-banner.png';
 
 function App() {
 
@@ -316,9 +317,8 @@ function App() {
           However, because multiple artists have spoken up on this issue in nominated categories, the Recording Academy has broadened this term . In 2021, the Recording Academy added “Best Progressive R{'\u0026'}B” and  “Best Melodic Rap Performance”.
         </p>
       </div>
-      <div classname="Sub-Header">
-        <h2>Broader Context</h2>
-      </div>
+
+      <Image id='broader-context-banner' src={broaderContextBanner} alt='' />
 
       <div className="Part-Six">
         <p>

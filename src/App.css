@@ -216,6 +216,9 @@
   line-height: 1.813rem;
   /* or 160% */
 }
+#broader-context-banner{
+  width: 100vw;
+}
 .Lyric-Comparison {
   width: 70vw;
   margin: auto;
