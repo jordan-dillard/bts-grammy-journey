@@ -15,48 +15,54 @@
   background-color: black;
   width: 100%
 }
+#banner{
+  position: absolute;
+  width: 100vw;
+  top: 4.688rem;
+  left: 0;
+}
 .Headline-Sticky-Container{
-  height: 1500px;
+  height: 70rem;
 }
 .Headline {
  /* BIGGER THAN THE GRAMMYS */
   
-  width: 1176px;
+  width: 73.5rem;
   font-family: 'DM Sans';
   font-style: normal;
-  font-weight: bold;
-  font-size: 200px;
-  line-height: 175px;
+  font-weight: 600;
+  font-size: 12.5rem;
+  line-height: 10.938rem;
  /* or 87% */
   color: #FFFFFF;
-  margin-left: 91px;
+  margin-left: 5.688rem;
   position: sticky;
   position: -webkit-sticky;
-  top: 75px;
+  top: 4.688rem;
 }
 .Subhead {
-  width: 1258px;
-  font-family: 'SF Pro';
+  width: 78.625rem;
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 510;
-  font-size: 35px;
-  line-height: 48px;
+  font-size: 1.875rem;
+  line-height: 2.5rem;
   /* or 137% */
   color: #FFFFFF;
-  margin-left: 91px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-left: 5.688rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .Byline {
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 0.938rem;
+  line-height: 1.875rem;
  /* or 150% */
   letter-spacing: 0.25em;
   color: #FFFFFF;
-  margin-left: 91px;
-  margin-bottom: 40px;
+  margin-left: 5.688rem;
+  margin-bottom: 2.5rem;
 }
 .Part-One {
   max-width: 50rem;
@@ -64,8 +70,8 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
   /* or 160% */
 }
 .Sub-Header{
@@ -74,8 +80,8 @@
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
   /* or 160% */
 }
 .Part-Two {
@@ -84,31 +90,34 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
   /* or 160% */
 }
+#bts-banner{
+  width: 100vw;
+}
 .Paragraph-Sticky-Container {
-  height: 3000px;
+  height: 187.5rem;
 }
 .Tweet-Sticky-Container-One{
-  height: 2100px;
-  margin-top: 500px;
+  height: 131.25rem;
+  margin-top: 31.25rem;
 }
 .Tweet-Sticky-Container-Two{
-  height: 1700px;
+  height: 106.25rem;
 }
 .Tweet-Sticky-Container-Three{
-  height: 1400px;
+  height: 87.5rem;
 }figma
 .Tweet-Sticky-Container-Four{
-  height: 1300px;
+  height: 81.25rem;
 }
 .Tweet-Sticky-Container-Five{
-  height: 900px;
+  height: 56.25rem;
 }
 .Tweet-Sticky-Container-Six{
-  height: 800px;
+  height: 50rem;
 }
 .Tweets-Paragraph {
   position: sticky;
@@ -118,38 +127,48 @@
 .Tweet-One {
   position: sticky;
   position: -webkit-sticky;
-  top: 300px;
-  margin-left: 100px;
-  margin-bottom: 200px;
+  top: 18.75rem;
+  margin-left: 6.25rem;
+  margin-bottom: 12.5rem;
 }
 .Tweet-Two {
   position: sticky;
   position: -webkit-sticky;
-  top: 350px;
+  top: 21.875rem;
 }
 .Tweet-Three {
   position: sticky;
   position: -webkit-sticky;
-  margin-left: 400px;
-  top: 400px;
+  margin-left: 25rem;
+  top: 25rem;
 }
 .Tweet-Four {
   position: sticky;
   position: -webkit-sticky;
-  margin-left: 30px;
-  top: 200px;
+  margin-left: 1.875rem;
+  top: 12.5rem;
 }
 .Tweet-Five {
   position: sticky;
   position: -webkit-sticky;
-  margin-left: 500px;
-  top: 250px;
+  margin-left: 31.25rem;
+  top: 15.625rem;
 }
 .Tweet-Six {
   position: sticky;
   position: -webkit-sticky;
-  margin-left: 300px;
-  top: 375px;
+  margin-left: 18.75rem;
+  top: 23.438rem;
+}
+.Pullout-Quote {
+  display: flex;
+  text-align: center;
+  color: #EB9486;
+  font-family: "DM Sans";
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 3rem;
+  justify-content: center;
 }
 .Part-Three {
   max-width: 50rem;
@@ -157,9 +176,12 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
   /* or 160% */
+}
+#fonsi-banner{
+  width: 100vw;
 }
 .Part-Four {
   max-width: 50rem;
@@ -167,9 +189,12 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
   /* or 160% */
+}
+#ratings-banner{
+  width: 100vw;
 }
 .Part-Five {
   max-width: 50rem;
@@ -177,32 +202,40 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
+  /* or 160% */
+}
+.Part-Six {
+  max-width: 50rem;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.313rem;
+  line-height: 1.813rem;
   /* or 160% */
 }
 .Lyric-Comparison {
+  width: 70vw;
+  margin: auto;
   display: flex;
+  align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 .Analysis {
+  margin-top: 1.313rem;
   display: flex;
   justify-content: center;
-  width: 25%;
+  width: 20%;
+  color: #7E7F9A;
 }
 .Lyrics {
+  font-family: 'DM Sans';
   width: 25%;
-  margin: 5px;
+  margin: 0.313rem;
 }
-.BTSPhotoText {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 976px;
-  height: 549px;
-  font-size: xx-large;
-  color: lightblue;
-  text-decoration: underline;
+.Empty-Div {
+  width: 10%;
 }
